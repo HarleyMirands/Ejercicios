@@ -1,0 +1,17 @@
+Algoritmo Ejercicio1
+	escribir "ingrese un valor"
+	leer n
+	Dimension a[n]
+	Para i<-1 Hasta n Hacer
+		a[i]=azar(10)
+		imprimir a[i]
+		
+	FinPara
+	si n mod 2=1
+		s= a[redon (n/2)]
+		imprimir "La Medida Es",s
+	SiNo
+		m= (a[n/2]+a[(n/2)+1])/2
+		imprimir "La Medida Es",m
+	FinSi
+FinAlgoritmo
