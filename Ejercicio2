@@ -1,0 +1,11 @@
+Proceso Ejercicio2
+	dimension a[50]
+	dimension b[50]
+	Para i<-1 Hasta 50
+		a[i]= azar(10)
+		b[i]= a[i]*a[i]
+		Imprimir "El Vector a", a[i]
+		Imprimir "EL Vector b", b[i]
+	FinPara
+	FinProceso
+	
