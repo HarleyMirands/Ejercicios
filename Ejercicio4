@@ -1,0 +1,14 @@
+Proceso Ejercicio4
+	Dimension a[1000]
+	Para i<-1 Hasta 1000 Hacer
+		a[i]= azar(100)
+		si a[i] mod 2=0
+			c=c+1
+		FinSi
+		si a[i]> 18
+			cl=cl+1
+		FinSi
+	FinPara
+	Imprimir "La Cantidad De Los Numeros Pares Son", c
+	Imprimir "La Cantidad De Los Numeros Mayores a 18 Son", cl
+	FinProceso
